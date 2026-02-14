@@ -1,0 +1,10 @@
+# Example One Piece TCG Decklist
+# Lines starting with # are comments
+# Format: [quantity]x Card ID/Name or just Card ID/Name
+# Card IDs follow format: OP01-001, ST01-012, etc.
+
+4x OP01-001
+4x OP01-002
+2x ST01-012
+1x OP01-120
+Monkey D. Luffy
