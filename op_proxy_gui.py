@@ -87,7 +87,7 @@ def parse_card_entry(entry: str) -> Tuple[Optional[str], int]:
     entry = entry.strip()
     if not entry or entry.startswith('#'):
         return None, 0
-    match = re.match(r'^(\d+)x?\s+(.+)$', entry, re.IGNORECASE)
+    match = re.match(r'^(\d+)x?\s*(.+)$', entry, re.IGNORECASE)
     if match:
         return match.group(2).strip(), int(match.group(1))
     return entry, 1
